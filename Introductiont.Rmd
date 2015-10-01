@@ -24,9 +24,10 @@ Your analysis should be reproducible. Whether you are submitting a paper based o
 Have a workflow.
 
 Master data 
-  -> read into R 
-  -> do analysis
-  -> save analysis
+> Read into R
+> do analysis
+> save analysis
+
   
 Collect your data in a way that makes analysis easy. If you have data... analyze it as soon as humanly possible. You might be able to adjust your data collection or storage techniques to "make the data talk to you" 
 
@@ -56,10 +57,12 @@ Set up a repository for a project in github
 add everyone else as a collaborator
 
 Open the project in Rstudio
-1 person Upload a simple data file
-Assign a task (using issues)
--Task 1 Write a script to read the data
--Task 2 Write a script to plot the data
+```{r} 
+# 1 person Upload a simple data file
+# Assign a task (using issues)
+# Task 1 Write a script to read the data
+# Task 2 Write a script to plot the data
+```
 
-Brainstorm more tasks?
+ Brainstorm more tasks?
 
