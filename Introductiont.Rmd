@@ -37,7 +37,7 @@ First – sign-up for a github account – Since you are here ... I'm going to a
 
 You might also want to check out [Simon Goring's page on starting github](https://github.com/SimonGoring/StartingGitHub)  
 
-Install Rstudio, and (install GIT for windows follow these linked instructions)[http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/] if you use a Mac you have my deepest sympathies. The instructions for windows work fine for most Macs but you will occasionally run into some mac specific issues. Working with 3 students on three Mac laptops lead to three different issues - if you run into trouble ask around we can help.  
+Install Rstudio, and [install GIT for windows follow these linked instructions](http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/) if you use a Mac you have my deepest sympathies. The instructions for windows work fine for most Macs but you will occasionally run into some mac specific issues. Working with 3 students on three Mac laptops lead to three different issues - if you run into trouble ask around we can help.  
 
 **Learning R with Rstudio**
 Mike Dietze (Boston University) has his entire R course on github – I’ve made a huge amount of progress just doing the first couple of lessons. Here’s the web-version of the R - [tutorial from Mike Dietze (BU)](https://github.com/EcoForecast/EF_Activities/blob/master/Exercise_01_RPrimer.Rmd)
