@@ -1,0 +1,65 @@
+---
+title: "Introduction to Git, Rstudio & R"
+author: "Dave Moore"
+date: "October 1, 2015"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+**what is github**
+
+Github is a social network ... it provides an online interface for you to collaborate with others. You can store your code on github, make little wikis, make webpages, write papers, (you can store little chunks of data but I wouldn't make a habit of that). 
+
+Github is also a way to collaborate with yourself and create some discipline in your analysis and workflow.
+
+**Some Recommendations**
+
+You should have "master" data files that do not change. These files should be accompanied by a readme file or someother metadata. This helps you keep track of your data and facilitates sharing your data. This will save you time.
+
+You should annotate your code. Use comments in your code the "#" symbol is your friend - write comments as if you were explaining your code to an equally intelligent person who knows nothing about your analysis. Keep it brief, keep it clear. You are collaborating with your future self. This will save you time.
+
+Your analysis should be reproducible. Whether you are submitting a paper based on a specific analysis or just analyzing data to test your basic assumptions and get a better feel for your dataset ... if you did it before ... you should be able to do it again. This will save you time. 
+
+Have a workflow.
+
+Master data 
+  -> read into R 
+  -> do analysis
+  -> save analysis
+  
+Collect your data in a way that makes analysis easy. If you have data... analyze it as soon as humanly possible. You might be able to adjust your data collection or storage techniques to "make the data talk to you" 
+
+Use issues on github to set tasks for yourself or remind you of "the next step". This will help you pick up where you left off (if you cannot code all day everyday).
+
+**Get Git and Rstudio talking to each other**
+First – sign-up for a github account – Since you are here ... I'm going to assume that you found the github website
+
+You might also want to check out [Simon Goring's page on starting github](https://github.com/SimonGoring/StartingGitHub)  
+
+Install Rstudio, and (install GIT for windows follow these linked instructions)[http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/] if you use a Mac you have my deepest sympathies. The instructions for windows work fine for most Macs but you will occasionally run into some mac specific issues. Working with 3 students on three Mac laptops lead to three different issues - if you run into trouble ask around we can help.  
+
+**Learning R with Rstudio**
+Mike Dietze (Boston University) has his entire R course on github – I’ve made a huge amount of progress just doing the first couple of lessons. Here’s the web-version of the R - [tutorial from Mike Dietze (BU)](https://github.com/EcoForecast/EF_Activities/blob/master/Exercise_01_RPrimer.Rmd)
+If you are into it - you can pull the entire course from this [github](https://github.com/mdietze/EcoForecast)
+
+Also here’s a series of [instructional videos that my students have found useful](https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP)
+
+There two resources are complementary but they are not from the same source.
+
+Another great option is to (use SWIRL) [http://swirlstats.com/] - you install it in R and then it provides some R lessons within Rstudio. 
+
+But most often I find my self googling things I don't know about and finding other peoples code on (github)[https://github.com/] or (sourceforge)[http://sourceforge.net/] 
+
+**We need volunteers**
+Set up a repository for a project in github
+add everyone else as a collaborator
+
+Open the project in Rstudio
+1 person Upload a simple data file
+Assign a task (using issues)
+-Task 1 Write a script to read the data
+-Task 2 Write a script to plot the data
+
+Brainstorm more tasks?
+
